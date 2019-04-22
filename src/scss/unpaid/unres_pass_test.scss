@@ -1,0 +1,141 @@
+.pass_test_container {
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: .1rem;
+    .divider_title {
+        margin:0 auto;
+        font-size: .1rem;
+        vertical-align: middle;
+        .pass_test {
+            font-size: .16rem;
+            color: #333333;
+        }
+        .test_type {
+            display:inline-block;
+            width: .34rem;
+            height: .14rem;
+            line-height: .14rem;
+            text-align: center;
+            font-size: .1rem;
+            color: #333333;
+            background: linear-gradient(#CFCFCF,#B8B7B7,#C2C2C2,#F6F6F6);
+            border-radius: 3px;
+            box-sizing: border-box;
+            margin-left: .05rem;
+        }
+    }
+    .main_content {
+        background-color: #fff;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-top: .12rem;
+        .single_item {
+            box-sizing: border-box;
+            padding: .15rem;
+            border-bottom: 1px solid $border-color;
+            .result_line {
+                font-size: .14rem;
+                color: #333333;
+                padding-bottom: .1rem;
+                .team_score {
+                    color: $home-color;
+                    display: inline-block;
+                    //margin-right: .1rem;
+                }
+                .team_vs {
+                    display: inline-block;
+                    margin-right: .1rem;
+                    margin-left: .1rem;
+                }
+                .game_score {
+                    display: inline-block;
+                    margin-left: .1rem;
+                }
+            }
+            .game_name {
+                font-size: .12rem;
+                color: #333333;
+                padding: .10rem 0;
+            }
+            .settle_status {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: .12rem;
+                padding-bottom: .1rem;
+                .game_kind {
+                    color: #999999;
+                }
+                .settle_result {
+                    color: $home-color;
+                }
+            }
+            .team_params {
+                font-size: .12rem;
+                .team_first_name {
+                    color: $home-color;
+                }
+                .at_icon {
+                    color: $home-color;
+                    position: relative;
+                    top: -.01rem;
+                    left: -.02rem;
+                }
+                .bet_rate {
+                    display: inline-block;
+                    background-color: $home-color;
+                    color: #ffffff;
+                    width: .33rem;
+                    height: .16rem;
+                    line-height: .16rem;
+                    text-align: center;
+                    border-radius: 10px;
+                    margin-left: .035rem;
+                }
+            }
+        }
+        .more_info {
+            padding: .15rem;
+            .pass_test_info {
+                font-size: .12rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: .1rem;
+                .txt_style {
+                    color: #999999;
+                }
+                .pass_test_bet {
+                    .pass_test_num {
+                        color: $home-color;
+                    }
+                }
+                .cancel_state {
+                    color: #333333;
+                }
+            }
+            .forecast_result {
+                font-size: .12rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: .1rem;
+                .txt_style {
+                    color: #999999;
+                }
+                .bet_content {
+                    .bet_num {
+                        color: #333333;
+                    }
+                }
+            }
+            .other_info {
+                font-size: .12rem;
+                color: #999999;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}

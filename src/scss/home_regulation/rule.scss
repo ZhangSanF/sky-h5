@@ -1,0 +1,140 @@
+.rule {
+    width: 100%;
+    height: 100%;
+    font-size: 0.13rem;
+    .tab-box{height: .4rem;
+        line-height: .4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: #ffffff;
+        .tab-text {display: inline-block;
+            width: 1.25rem;
+            text-align: center;
+            color: #999999
+        }
+        .tab-text.actives {
+            color: $home-color;
+        }
+    }
+    .underline-style {
+        width: 33.33%;
+        height: 2px;
+        background: #11A7DE;
+        transform: translate(0,0);
+        transition: transform .3s linear 0s
+    }
+    .main_body {
+        margin-top: .07rem;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        padding-top: .11rem;
+        //
+        .select-style {
+            box-sizing: border-box;
+            margin: 0 .14rem;
+            height: 0.37rem;
+            border: 0.01rem solid #e2e2e2;
+            border-radius: 5px;
+            position: relative;
+            .icon-box{
+               transform: rotate(-90deg);
+                position: absolute;
+                right: 0.1rem;
+                top: 0.07rem;
+                transition: transform .3s linear;
+                .icon-style{
+                    color: #333;
+                    font-size: 0.19rem
+                }
+            }
+        }
+        .outerWrapper {
+          position: fixed;left: 0;right: 0;bottom: 0.1rem;overflow: hidden;
+            //height: 5.83rem;
+            //overflow: hidden;
+            //体育规则
+            .rule-content-box {
+              padding: 0 0.15rem;
+                //padding:0.15rem;
+                //position: relative;
+                background-color: #fff;
+                .rule-content{
+                    color: #666666;
+                    font-size: 0.13rem;
+                    line-height: 0.23rem;
+                    letter-spacing: 0.005rem;
+                    .content-item{
+                        text-indent: 0.25rem;
+                        margin-bottom: 0.15rem
+                    }
+                }
+            }
+            //规则与条款
+            .clause-box {
+                box-sizing: border-box;
+                padding: 0.1rem 0.15rem;
+                background-color: #fff;
+                .clause-content{font-size: 0.13rem;
+                    color: #666666;
+                    line-height: 0.23rem;
+                    letter-spacing: 0.005rem;
+                    //height: 700px;
+                    .content-item{text-indent: 0.25rem;
+                        margin-bottom: 0.15rem;
+                    }
+                }
+            }
+            //赔率计算
+            .odds-box {
+                background: #ffffff;
+                padding: 0.1rem 0.14rem;
+                .odds-content{
+                    width: 100%;
+                    height: 3.34rem;
+                    box-sizing: border-box;
+                    border-top: 0.01rem solid #e2e2e2;
+                    border-left: 0.01rem solid #e2e2e2;
+                    .list-item{
+                        box-sizing: border-box;
+                        height: 0.2775rem;
+                        border-bottom: 0.01rem solid #e2e2e2;
+                        display: flex;
+                        line-height: 0.2775rem;
+                        .item-content{box-sizing: border-box;
+                            border-right: 0.01rem solid #e2e2e2;
+                            text-align: center;
+                            color: #666666
+                        }
+                        div:nth-child(1) {
+                            width: 0.84rem
+                        }
+                        div:nth-child(2) {
+                            width: 0.84rem
+                        }
+                        div:nth-child(3) {
+                            width: 0.585rem
+                        }
+                        div:nth-child(4) {
+                            width: 0.585rem
+                        }
+                        div:nth-child(5) {
+                            width: 0.61rem
+                        }
+                    }
+                    li:nth-child(1) {
+                        background: #f8f8f8
+                    }
+                }
+            }
+        }
+    }
+}
+.box{
+  position: fixed;bottom: .15rem;right: .15rem;width: .4rem;height: .4rem;
+}
+.go-top{
+ width: .3rem;opacity: .3;transition: all linear .3s;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);
+}

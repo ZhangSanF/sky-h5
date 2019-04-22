@@ -1,0 +1,55 @@
+.el-radio-group {
+    position: fixed;
+    top: .08rem;
+    height: .3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    .el-radio-button {
+        .el-radio-button__inner {
+            padding: .06rem .15rem;
+            border: .01rem solid #ffffff;
+            background-color: $home-color;
+            color: #ffffff;
+            font-size: .14rem;
+        }
+    }
+    .el-radio-button.is-active {
+        .el-radio-button__inner {
+            background-color: #ffffff;
+            color: $home-color;
+            font-size: .14rem;
+            &focus {
+                outline:none;
+            }
+        }
+    }
+    .el-radio-button.is-active {
+        .el-radio-button__inner:active {
+            outline:none;
+        }
+    }
+}
+.el-tabs__header.is-top {
+    margin-bottom: 0;
+    background-color: #fff;
+    .el-tabs__nav.is-top.is-stretch {
+        .el-tabs__active-bar {
+            background-color: $home-color;
+        }
+        .el-tabs__active-bar.is-top {
+            background-color: transparent;
+        }
+        .el-tabs__item {
+            padding: 0 0;
+            height: .4rem;
+            line-height: .4rem;
+        }
+        .el-tabs__item.is-top {
+            font-size: .14rem;
+        }
+    }
+    .el-tabs__item.is-top.is-active {
+        color: $home-color;
+    }
+}

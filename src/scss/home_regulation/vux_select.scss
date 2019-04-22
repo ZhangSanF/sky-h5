@@ -1,0 +1,28 @@
+
+.rule{
+  .vux-cell-box{height: 0.37rem;
+      .weui-cell {padding: 0;
+        .vux-popup-picker-select{box-sizing:border-box;height: 100%;text-align: left!important;line-height: 0.35rem;
+          padding-left: 0.15rem;color: #333333;font-size: 0.13rem;z-index: 10001
+        }
+        .vux-cell-value{color: #333}
+
+      }
+    .weui-cell_access .weui-cell__ft:after{display: none}
+  }
+}
+
+//.v-transfer-dom{
+//  .vux-popup-dialog{background: #FFFFFF;
+//    .vux-popup-picker-container{
+//      .vux-popup-header{box-sizing:border-box;height: 0.45rem;background: #FFFFFF;padding: 0.07rem 0.15rem ;
+//        .vux-popup-header-left{background: $home-color;width: 0.51rem;height: 0.31rem;line-height: 0.31rem;border-radius: 5px;font-size: 0.14rem;color: #FFFFFF;padding-left: 0;text-align: center}
+//        .vux-popup-header-right{background: $home-color;width: 0.51rem;height: 0.31rem;line-height: 0.31rem;border-radius: 5px;font-size: 0.14rem;color: #FFFFFF;padding-right: 0;text-align: center}
+//      }
+//      .vux-picker{
+//
+//      }
+//    }
+//  }
+//}
+

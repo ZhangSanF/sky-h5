@@ -1,0 +1,102 @@
+#log_in {
+    font-size: 1rem;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: lightgray ;
+    display: flex;
+    flex-direction: column;
+    .game_logo {
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        position:relative;
+        .icon_logo {
+            font-size: .7rem;
+            color: $home-color;
+            position:absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    .input_box {
+        flex-grow: 1;
+        position: relative;
+        .input_account,.input_pwd {
+            position: relative;
+            box-sizing: border-box;
+            width: 90%;
+            color: #333333;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            input {
+                display: block;
+                box-sizing: border-box;
+                width: 100%;
+                font-size: .15rem;
+                padding: .2rem .2rem .2rem .6rem;
+                border: none;
+                border-radius: 5px;
+                background-color: #fff;
+                vertical-align: middle;
+                -webkit-user-select:auto;
+                color: #333333;
+                &:focus {
+                    outline: none;
+                }
+            }
+            input::-webkit-input-placeholder {
+                color: #666666;
+            }
+            input:focus~i {
+                color: #333333;
+            }
+            i {
+                position: absolute;
+                top: .18rem;
+                left: .17rem;
+                width: .2rem;
+                height: .2rem;
+                text-align: center;
+                line-height: .2rem;
+                color: #666666;
+            }
+            b {
+                position: absolute;
+                top: .18rem;
+                right: .15rem;
+                width: .2rem;
+                height: .2rem;
+                text-align: center;
+                line-height: .2rem;
+                font-weight: 300;
+            }
+        }
+        .input_account {
+            margin-bottom: .2rem;
+        }
+        .login_now {
+            box-sizing: border-box;
+            width: 90%;
+            background-color: $home-color;
+            color: #ffffff;
+            font-size: .17rem;
+            height: .57rem;
+            line-height: .57rem;
+            text-align: center;
+            border-radius: 5px;
+            margin: .35rem auto 0;
+        }
+        .register_box {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            padding:0 5%;
+            margin-top: .17rem;
+            color: #ffffff;
+            font-size: .15rem;
+        }
+    }
+}

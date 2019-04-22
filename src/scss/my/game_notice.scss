@@ -1,0 +1,41 @@
+.msg_item {
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: .1rem;
+    background-color: #fff;
+    padding: 0 0.27rem 0 0.16rem;
+    height: .84rem;
+    list-style: none;
+    overflow: hidden;
+    .msg_date {
+        height: 0.38rem;
+        line-height: 0.38rem;
+        font-size: .14rem;
+        color: #999999;
+    }
+    .msg_abbr_content {
+        height: .37rem;
+        font-size: .13rem;
+        color: #333333;
+        overflow: hidden;
+        display: -webkit-box;
+        line-clamp: 2;
+        -moz-line-clamp: 2;
+        -o-line-clamp: 2;
+        -ms-line-clamp: 2;
+        -webkit-line-clamp: 2;
+        text-overflow: ellipsis;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -o-box-orient: vertical;
+        -ms-box-orient: vertical;
+        /* autoprefixer: on */
+    }
+}
+.pullUp_success{
+  text-align: center;
+  font-size: 0.12rem;
+  color: #999999;
+  padding-top: 0.1rem;
+}

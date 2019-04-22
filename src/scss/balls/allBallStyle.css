@@ -1,0 +1,92 @@
+/*
+Error: Undefined variable: "$home-color".
+        on line 6 of allBallStyle.scss
+
+1: 
+2: .allBallStyle{width: 100%;height: 100%;font-size: 0.13rem;
+3:   .checkedMix{background-color: #11A7DE;}
+4:   //综合过关底部
+5:   .reach-footer{width: 100%;height: 0.49rem;background: #ffffff;position: fixed;bottom: 0;left: 0;z-index: 1000;box-shadow: 0 -0.05rem 0.07rem -0.05rem rgba(153,153,153,0.33);
+6:     .footer-content{width: 1.6rem;height: 0.35rem;background: $home-color;margin: 0.07rem auto;border-radius: 3px;text-align: center;position: relative;
+7:       .content-font{font-size: 0.14rem;color: #ffffff;margin-top:0.07rem;display: inline-block}
+8:       .yuan{width: 0.16rem;height: 0.16rem;border-radius: 50%;background: #ffffff;position: absolute;top: 0.04rem;right: 0.09rem;
+9:         .yuan-num{width:0.16rem;height:0.16rem;font-size: 0.12rem;color: $home-color;position: absolute;top:0.01rem;left: 0;}
+10:       }
+11:     }
+
+Backtrace:
+allBallStyle.scss:6
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `block in with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `map'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `block in with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `map'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `block in with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `map'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `block in with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `with_base'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:51:in `process_result'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/base.rb:50:in `parse'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/base.rb:18:in `parse!'
+D:/Soft/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.7/bin/scss:13:in `<top (required)>'
+D:/Soft/Ruby25-x64/bin/scss:23:in `load'
+D:/Soft/Ruby25-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$home-color\".\A         on line 6 of allBallStyle.scss\A \A 1: \A 2: .allBallStyle{width: 100%;height: 100%;font-size: 0.13rem;\A 3:   .checkedMix{background-color: #11A7DE;}\A 4:   //综合过关底部\A 5:   .reach-footer{width: 100%;height: 0.49rem;background: #ffffff;position: fixed;bottom: 0;left: 0;z-index: 1000;box-shadow: 0 -0.05rem 0.07rem -0.05rem rgba(153,153,153,0.33);\A 6:     .footer-content{width: 1.6rem;height: 0.35rem;background: $home-color;margin: 0.07rem auto;border-radius: 3px;text-align: center;position: relative;\A 7:       .content-font{font-size: 0.14rem;color: #ffffff;margin-top:0.07rem;display: inline-block}\A 8:       .yuan{width: 0.16rem;height: 0.16rem;border-radius: 50%;background: #ffffff;position: absolute;top: 0.04rem;right: 0.09rem;\A 9:         .yuan-num{width:0.16rem;height:0.16rem;font-size: 0.12rem;color: $home-color;position: absolute;top:0.01rem;left: 0;}\A 10:       }\A 11:     }"; }

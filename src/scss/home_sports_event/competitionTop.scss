@@ -1,0 +1,29 @@
+
+//top
+.box{font-size: 0.13rem;}
+.top{position: fixed;top:0.08rem;left: 50%;transform: translate(-50%,0);z-index: 1000;text-align: center;
+  .top-title{height:0.24rem;line-height:0.24rem;color: #ffffff;position: relative;//width: 1.1rem;overflow: hidden;
+    .top-font{font-size: 0.16rem;display: inline-block;height: 0.24rem}//width: 0.8rem;overflow: hidden;
+    .top-icon-box{transform: rotate(-90deg);transition: all .3s linear;position: absolute;top:-0.01rem;right: -0.2rem;//right: -0.18rem;
+      .top-icon{font-size: 0.17rem;}
+    }
+  }
+  .top-down{width: 1.23rem;height: 0.99rem;position: absolute;left: 0.3rem;overflow: hidden;
+    .down-box{height: 0.08rem;
+      .top-down-triangle{width: 0;height: 0;border-width: 0 0.08rem 0.08rem 0.08rem;border-color: #E9E9E9 transparent;
+        border-style: solid;position: absolute;left: 50%;transform: translate(-50%,0);}
+    }
+    .top-down-content{height: 0.91rem;color: #999999;background: #E9E9E9;border-radius: 5px;
+      .alliance-sort,.time-sort{height: 0.45rem;line-height:0.45rem;border-bottom: 0.01rem solid #C4C4C4;font-size: 0.15rem;text-align: center;
+        .icon-style{font-size: 0.21rem}
+      }
+      .time-sort{height: 0.45rem;border-bottom:none;}
+    }
+  }
+  .fade-enter-active, .fade-leave-active{
+    transition: height .3s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    height: 0;
+  }
+}

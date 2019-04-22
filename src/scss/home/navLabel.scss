@@ -1,0 +1,22 @@
+.nav_label {
+    font-size: .14rem;
+    color: #999;
+    overflow: hidden;
+    //margin-top: .2rem;
+    .tab_box {
+        height: .4rem;
+        line-height:.4rem;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        background-color: #fff;
+        .tab_text {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .tab_text.active {
+            color: $home-color;
+        }
+    }
+}

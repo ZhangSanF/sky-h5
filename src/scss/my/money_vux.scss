@@ -1,0 +1,12 @@
+
+.money-down{
+  .vux-cell-box{height: 0.43rem;
+    .weui-cell {padding: 0;
+      .vux-popup-picker-select{box-sizing:border-box;height: 100%;text-align: left!important;line-height: 0.43rem;
+        padding-left: 0.15rem;color: #333333;font-size: 0.14rem;z-index: 10001
+      }
+      .vux-cell-value{color: #333}
+    }
+    .weui-cell_access .weui-cell__ft:after{display: none}
+  }
+}

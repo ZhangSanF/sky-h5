@@ -1,0 +1,42 @@
+
+.football-result{font-size: 0.13rem;position: fixed;left: 0;right: 0;bottom: 0.1rem;overflow: hidden;top:0.87rem;
+  .box{//padding-top: 0.1rem;
+    .result-list{margin-bottom: 0.1rem;
+      .title{box-sizing: border-box;height: 0.45rem;display: flex;justify-content: space-between;
+        padding: 0 0.14rem;background: #ffffff;align-items: center;
+        .title-font{color: $home-color;font-size: 0.14rem}
+        .icon-box{height: 100%;line-height: 0.45rem;transform: rotate(-90deg);transition: all .2s linear;
+          .icon-style{font-size: 0.18rem;color: #999999;}
+        }
+      }
+      .result-box{overflow: hidden;transition: all .3s linear;//height: 0.85rem;
+        .result-info{box-sizing: border-box;background: #F8F8F8;display: flex;justify-content: space-between;//height: 0.32rem;
+          padding: 0.08rem 0.14rem;align-items: center;
+          div:nth-child(1){font-size: 0.12rem;color: #999999;width: 0.95rem;}//95
+          div:nth-child(2){font-size: 0.13rem;color: #333333;width: 1.26rem;text-align: center;box-sizing: border-box;padding: 0 0.1rem;}//135-9  126overflow: hidden;height: 0.17rem;text-overflow:ellipsis;white-space: nowrap;
+          div:nth-child(3){font-size: 0.13rem;color: #333333;width: 1.26rem;text-align: center;box-sizing: border-box;padding: 0 0.1rem;}//135-9 126overflow: hidden;height: 0.17rem;text-overflow:ellipsis;white-space: nowrap;
+        }
+        .result-detail{box-sizing: border-box;background: #ffffff;padding: 0.07rem 0.14rem ;//height: 0.53rem;
+          .detail-top{height:0.195rem;width: 100%;display: flex;justify-content: space-between;font-size: 0.13rem;color: #666666;
+            div:nth-child(1){width: 0.95rem;}//95
+            div:nth-child(2){width: 1.26rem;text-align: center;}//135-9  126
+            div:nth-child(3){width: 1.26rem;text-align: center;}//135-9 126
+            .color-style{color: #D50926}
+          }
+        }
+      }
+
+      .fade-enter-active, .fade-leave-active{
+        transition: opacity .2s;
+      }
+      .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0;
+      }
+    }
+  }
+
+
+}
+
+
+

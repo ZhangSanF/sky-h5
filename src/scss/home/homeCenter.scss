@@ -1,0 +1,82 @@
+.home_center {
+    font-size: 0.13rem;
+  .content-box{
+    position: fixed;top: 0.4rem;left: 0;right: 0;bottom: 0.49rem;overflow: hidden;
+    .notice_bar {
+      font-size: 0.13rem;
+      height: 0.39rem;
+      line-height: .39rem;
+      position: relative;
+      a.notice_icon {
+        position: absolute;
+        left: .12rem;
+        font-size: .18rem;
+        color: $home-color;
+      }
+
+      #box{
+        height: 0.39rem;
+        line-height: .39rem;;
+        overflow: hidden;
+      }
+
+     /* .anim{
+        transition: all 1s;
+        margin-top: -.39rem;
+      }
+      #con1 li{
+        list-style: none;
+        height: 0.39rem;
+        line-height: .39rem;
+      }*/
+
+      a.notice_text {
+        color: #333;
+        display: inline-block;
+        margin-left: 0.38rem;
+        height: 0.30rem;
+        span{  display: inline-block;width: 2.9rem; height: 0.30rem;overflow:hidden;text-overflow:ellipsis; white-space:nowrap;  }
+      }
+
+      a.arrow_icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #11A7DE;
+        position: absolute;right: 0.15rem;font-size: 0.12rem
+      }
+      a.more_notice_icon {
+        position: absolute;
+        right: 0.02rem;
+        font-size: .12rem;
+        color: #11A7DE;
+      }
+    }
+    /*中间精选球展示样式*/
+      .center-content-title{
+        width: 100%;
+        height: 0.44rem;
+        line-height: 0.44rem;
+        padding-left: 0.15rem;
+        font-size: 0.15rem;
+        color: #333333
+      }
+  }
+
+
+  .center-content-info{
+    position: fixed;
+    bottom: 0.55rem;
+    width: 100%;
+    height: 0.38rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    >div{height: 100%;
+      line-height: 0.38rem;
+      width: 100%;
+      text-align: center
+    }
+  }
+}
+.center{padding-bottom: .15rem}

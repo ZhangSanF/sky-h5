@@ -1,0 +1,126 @@
+
+.allBallStyle{width: 100%;height: 100%;font-size: 0.13rem;
+  .checkedMix{background-color: #B2DFFC;border-radius: 2px;color: #41B9E5;
+    span:nth-child(1){color: #FFFFFF!important;}
+  }
+  //.checkedMixPlant{color: #FFFFFF!important;}
+  //今日每场联赛球赛数量
+  //.content-right{font-size: 0.13rem;color: #999999;display: flex;margin-left: auto;
+  //}
+  //球
+  .football-info{width: 100%;height: 0.38rem;background: #ffffff;display: flex;line-height: 0.38rem;//box-shadow: 0 0.05rem 0.07rem -0.05rem rgba(153,153,153,0.33) , 0 -0.05rem 0.07rem -0.04rem rgba(153,153,153,0.33) ;
+    .info-name{box-sizing:border-box;width: 1.45rem;display: flex;border-right: 0.01rem solid $border-color;
+      .icon-style{font-size: 0.18rem;color: $home-color;margin-left: 0.15rem}
+      .name-font{width:1rem;font-size: 0.15rem;color: #333333;margin-left: 0.05rem;overflow: hidden; white-space: nowrap;}
+    }
+    .info-detail{box-sizing:border-box;width: 2.3rem;
+      .info-box{box-sizing:border-box;width: 100%;display: flex;justify-content: space-around;font-size: 0.12rem;color: #333333;  }
+    }
+    .info-other{width: 0.45rem;.other{font-size: 0.12rem;color: #333333;margin-left: 0.06rem}}
+  }
+  .list-box{box-sizing:border-box;position: fixed;left: 0;right: 0;overflow: hidden;bottom: 0;
+    .scroller-box{padding-bottom: 0.42rem;
+      .ball-detail-list{//margin-bottom: 0.15rem;
+        .morning-time{padding-left: 0.15rem;margin-bottom: 0.14rem;font-size: 0.12rem;color: #333333}
+        .info-title{box-sizing:border-box;height: 0.4rem;padding: 0 0.15rem;display: flex;background: #ffffff;//line-height: 0.4rem;
+          justify-content: space-between;border-bottom: 0.01rem solid $border-color;align-items: center;
+          .title{font-size: 0.14rem;color: $home-color}
+          .content-right{display: flex;justify-content: space-between;height: 100%;align-items: center;
+              div:nth-child(1){font-size: 0.13rem;color: #999999;}
+              .icon-box{transition: all .2s linear;transform: rotate(90deg);
+                .icon-style{font-size: 0.16rem;color: #999999;}
+              }
+              .icon-box-today{transition: all .2s linear;
+                .icon-style{font-size: 0.16rem;color: #999999;}
+              }
+          }
+        }
+
+        .sum-height{overflow: hidden;transition: all .3s linear;
+          .slide {overflow: hidden;display:none;transition: max-height .5s cubic-bezier(0, 1, 0, 1) -.1s;}
+          .animate {display:block;transition-timing-function: cubic-bezier(0.5, 0, 1, 0);transition-delay: 0s;}
+          .ball-detaill{width: 100%;font-size: 0.13rem;background: #ffffff;border-bottom: 0.01rem solid $border-color;height: 0.76rem;
+            //.info-content{//overflow: hidden;height: 100%;
+              .item-info{box-sizing: border-box;display: flex;height: 0.76rem;
+                //左
+                .content-left{box-sizing: border-box;width: 1.45rem;border-right: 0.01rem solid $border-color;padding: 0.1rem 0.06rem 0.1rem 0.15rem;
+                  .content-left-first,.content-left-two{height:0.19rem;display: flex;justify-content: space-between;align-items: center;
+                    div{height: 0.19rem;}
+                    .first-time-top{display:inline-block;font-size: 0.11rem;color: #999999;width: 0.33rem;text-align: right;margin-right: 0.03rem}
+                    .first-name-top{display:inline-block;font-size: 0.12rem;color: #333333;width: 1rem;overflow: hidden;height: 0.19rem;white-space: nowrap;text-overflow: ellipsis;}
+                    .score{display: flex;justify-content: space-between;align-items: center;height: 0.19rem;
+                      .card{margin-right: 0.05rem;margin-top: -0.03rem;display: flex;justify-content: space-between;align-items: center;
+                        .red-card,.yellow-card{padding-top: 1px;width: 0.1rem;height: 0.12rem;line-height:0.12rem;background: #E43131;text-align: center;font-size: 0.12rem;color: #FFFFFF;border-radius: 0.027rem}
+                        .yellow-card{background: #E3C032;margin-left: 0.02rem;border-radius: 0.027rem}
+                      }
+                      .first-score{font-size: 0.13rem;color: $home-color;margin-left: 0.03rem;}
+                    }
+                  }
+                  .content-left-three{height: 0.18rem;display: flex;justify-content: space-between;align-items: center;
+                    >div{font-size: 0.12rem;color: #999999}
+                    .icon-style{font-size: 0.16rem;color: #11A7DE;}
+                    .more_Num{padding-top:0.03rem;background: #A4A9B5;color: #ffffff;width: 0.25rem;height: 0.11rem;
+                      line-height: 0.11rem;text-align: center;font-size: 0.11rem;border-radius: 7px}
+                  }
+                }
+                //中
+                .content-center{box-sizing:border-box;width: 2.3rem;overflow: hidden;
+                  .content-detail{box-sizing:border-box;padding: 0.1rem 0 ;height:100%;display: flex;justify-content: space-between;
+                    .all-alone-win{width: 0.7rem;
+                      .all-style{padding-right: 0.1rem;
+                        span:nth-child(1){width: 0.2rem}
+                        span:nth-child(2){width: 0.4rem;}
+                      }
+                    }
+                    .all-let-the-ball,.all-size{width: 0.8rem;
+                      .all-style{padding-right: 0.1rem;
+                        span:nth-child(1){width: 0.35rem}
+                        span:nth-child(2){width: 0.35rem;}
+                      }
+                    }
+                    .all-alone-win,.all-let-the-ball,.all-size{
+                      .all-style{box-sizing:border-box;height: 0.19rem;display: flex;justify-content: space-between;line-height: 0.19rem;position: relative;
+                        .showitems{visibility: visible;color: #999999}
+                        .hideitems{visibility: hidden}
+                        span:nth-child(1){font-size: 0.11rem;letter-spacing:-1px;color: #999999;text-align: right;}
+                        span:nth-child(2){font-size: 0.13rem;text-align: center;font-weight: bold;color:rgba(90,90,90,0.9)}
+                        .rate_color_green {
+                          color: #09D577 !important;
+                        }
+                        .rate_color_red {
+                          color: #D50926 !important;;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            //}
+          }
+        }
+        .fade-enter-active, .fade-leave-active{
+          transition: opacity .2s;
+        }
+        .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+          opacity: 0;
+        }
+      }
+      //div:last-child{margin-top: 0}
+    }
+
+  }
+}
+.arrow_up_green {
+  color: #09D577;
+  font-size: .13rem;
+  position: absolute;
+  right: -0.01rem;
+}
+.arrow_down_red {
+  transform: rotate(180deg);
+  color: #D50926;
+  font-size: .13rem;
+  position: absolute;
+  right: 0;
+}
+

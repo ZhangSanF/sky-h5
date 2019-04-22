@@ -1,0 +1,36 @@
+
+.m-football{font-size: 0.13rem;position: fixed;top:1.56rem;bottom:0.5rem;left: 0;right: 0;overflow: hidden;background: #FFFFFF;
+  .title{box-sizing:border-box;height: 0.44rem;background: #ffffff;
+    .title-content{display: flex;justify-content: space-between;align-items: center;height: 100%;padding: 0 0.15rem;
+      .title-font{font-size: 0.14rem;color: #333333}
+      .icon-box{transform: rotate(-90deg);transition: all .3s linear;
+        .title-icon{font-size: 0.18rem;color: #999999;}
+      }
+    }
+  }
+  .content-item{box-sizing: border-box;height: 0.39rem;border-top: 0.01rem solid $border-color;background: #ffffff;
+    .content{height: 100%;display: flex;justify-content: space-between;padding: 0 0.15rem;align-items: center;
+      .content-left{font-size: 0.13rem;color: #5ebbe5;}
+      .content-right{font-size: 0.13rem;color: #999999;display: flex;
+        .content-icon{font-size: 0.17rem;}
+      }
+    }
+  }
+
+  .fade-enter-active, .fade-leave-active{
+    transition: opacity .3s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+}
+
+//综合过关底部
+.reach-footer{width: 100%;height: 0.49rem;background: #ffffff;position: fixed;bottom: 0;left: 0;z-index: 1000;box-shadow: 0 -0.05rem 0.07rem -0.05rem rgba(153,153,153,0.33);
+  .footer-content{width: 1.6rem;height: 0.35rem;background: $home-color;margin: 0.07rem auto;border-radius: 3px;text-align: center;position: relative;
+    .content-font{font-size: 0.14rem;color: #ffffff;margin-top:0.07rem;display: inline-block}
+    .yuan{width: 0.16rem;height: 0.16rem;border-radius: 50%;background: #ffffff;position: absolute;top: 0.04rem;right: 0.09rem;
+      .yuan-num{width:0.16rem;height:0.16rem;font-size: 0.12rem;color: $home-color;position: absolute;top:0.01rem;left: 0;}
+    }
+  }
+}

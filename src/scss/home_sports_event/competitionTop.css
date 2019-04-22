@@ -1,0 +1,69 @@
+.box {
+  font-size: 0.13rem; }
+
+.top {
+  position: fixed;
+  top: 0.08rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1000; }
+  .top .top-title {
+    width: 1rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative; }
+    .top .top-title .top-font {
+      font-size: 0.16rem;
+      width: 0.8rem;
+      overflow: hidden;
+      display: inline-block;
+      height: 0.24rem; }
+    .top .top-title .top-icon-box {
+      transform: rotate(-90deg);
+      transition: all .3s linear;
+      position: absolute;
+      top: -0.01rem;
+      right: 0; }
+      .top .top-title .top-icon-box .top-icon {
+        font-size: 0.17rem; }
+  .top .top-down {
+    width: 1.23rem;
+    height: 0.99rem;
+    position: absolute;
+    left: -0.13rem;
+    overflow: hidden; }
+    .top .top-down .down-box {
+      height: 0.08rem; }
+      .top .top-down .down-box .top-down-triangle {
+        width: 0;
+        height: 0;
+        border-width: 0 0.08rem 0.08rem 0.08rem;
+        border-color: #E9E9E9 transparent;
+        border-style: solid;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0); }
+    .top .top-down .top-down-content {
+      height: 0.91rem;
+      color: #999999;
+      background: #E9E9E9;
+      border-radius: 5px; }
+      .top .top-down .top-down-content .alliance-sort, .top .top-down .top-down-content .time-sort {
+        height: 0.45rem;
+        line-height: 0.45rem;
+        border-bottom: 0.01rem solid #C4C4C4;
+        font-size: 0.15rem;
+        text-align: center; }
+        .top .top-down .top-down-content .alliance-sort .icon-style, .top .top-down .top-down-content .time-sort .icon-style {
+          font-size: 0.21rem; }
+      .top .top-down .top-down-content .time-sort {
+        height: 0.45rem;
+        border-bottom: none; }
+  .top .fade-enter-active, .top .fade-leave-active {
+    transition: height .3s; }
+  .top .fade-enter, .top .fade-leave-to {
+    height: 0; }
+
+/*# sourceMappingURL=competitionTop.css.map */

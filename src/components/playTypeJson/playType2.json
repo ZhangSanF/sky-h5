@@ -1,0 +1,348 @@
+{
+  "football": {
+    "capot": {
+      "full":{
+        "single": 3010011,
+        "live": 3020011
+      },
+      "half": {
+        "single": 3010021,
+        "live": 3020021
+      }
+    },
+    "concede": {
+      "full":{
+        "single": 3010012,
+        "live": 3020012
+      },
+      "half": {
+        "single": 3010022,
+        "live": 3020022
+      }
+    },
+    "size": {
+      "full":{
+        "single": 3010013,
+        "live": 3020013
+      },
+      "half": {
+        "single": 3010023,
+        "live": 3020023
+      }
+    },
+    "singlePair": {
+      "full":{
+        "single": 3010014,
+        "live": 3020014
+      },
+      "half": {
+      }
+    },
+    "wave": {
+      "text": "波胆",
+      "full":{
+        "single":{
+          "default": 3030000,
+          "single10": 3030010,
+          "single20": 3030020,
+          "single21": 3030030,
+          "single30": 3030040,
+          "single31": 3030050,
+          "single32": 3030060,
+          "single40": 3030070,
+          "single41": 3030080,
+          "single42": 3030090,
+          "single43": 3030100,
+          "single00": 3030110,
+          "single11": 3030120,
+          "single22": 3030130,
+          "single33": 3030140,
+          "single44": 3030150,
+          "singleOther": 3030160
+        },
+        "live":{
+          "liveDefault": 3032000,
+          "live10": 3032010,
+          "live20": 3032020,
+          "live21": 3032030,
+          "live30": 3032040,
+          "live31": 3032050,
+          "live32": 3032060,
+          "live40": 3032070,
+          "live41": 3032080,
+          "live42": 3032090,
+          "live43": 3032100,
+          "live00": 3032110,
+          "live11": 3032120,
+          "live22": 3032130,
+          "live33": 3032140,
+          "live44": 3032150,
+          "liveOther": 3032160
+        }
+      },
+      "half": {
+        "single": {
+          "default": 3040000,
+          "single10": 3040010,
+          "single20": 3040020,
+          "single21": 3040030,
+          "single30": 3040040,
+          "single31": 3040050,
+          "single32": 3040060,
+          "single00": 3040110,
+          "single11": 3040120,
+          "single22": 3040130,
+          "single33": 3040140,
+          "singleOther": 3040160
+        },
+        "live": {
+          "default": 3042000,
+          "single10": 3042010,
+          "single20": 3042020,
+          "single21": 3042030,
+          "single30": 3042040,
+          "single31": 3042050,
+          "single32": 3042060,
+          "single00": 3042110,
+          "single11": 3042120,
+          "single22": 3042130,
+          "single33": 3042140,
+          "singleOther": 3042160
+        }
+      }
+    },
+    "goalCount": {
+      "text": "入球数",
+      "default": 3050000,
+      "full":{
+        "single01": 3050010,
+        "single23": 3050020,
+        "single46": 3050030,
+        "single7": 3050040
+      },
+      "half": {
+      }
+    },
+    "halfFull": {
+      "text": "半全场",
+      "full":{
+        "single": {
+          "default": 3060000,
+          "hostHost": 3060010,
+          "hostDeuce": 3060020,
+          "hostGuest": 3060030,
+          "deuceHost": 3060040,
+          "deuceDeuce": 3060050,
+          "deuceGuest": 3060060,
+          "guestHost": 3060070,
+          "guestDeuce": 3060080,
+          "guestGuest": 3060090
+        },
+        "live": {
+          "default": 3062000,
+          "hostAll": 3062010,
+          "hostDeuce": 3062020,
+          "hostGuest": 3062030,
+          "deuceHost": 3062040,
+          "deuceAll": 3062050,
+          "deuceGuest": 3062060,
+          "guestHost": 3062070,
+          "guestDeuce": 3062080,
+          "guestAll": 3062090
+        }
+      },
+      "half": {
+      }
+    },
+    "mix": {
+      "default": 3070000
+    },
+    "champion": {
+      "default": 3090000
+    }
+  },
+  "basketball": {
+    "capot": {
+      "full":{
+        "single": 3110040,
+        "live": 3120040
+      }
+    },
+    "concede": {
+      "full":{
+        "single": 3110010,
+        "live": 3120010
+      }
+    },
+    "size": {
+      "full":{
+        "single": 3110020,
+        "live": 3120020
+      },
+      "team":{
+        "text": "球队得分",
+        "single": 3110050,
+        "live": 3120050
+      }
+    },
+    "singlePair": {
+      "full": {
+        "single": 3110030
+      }
+    },
+    "mix": {
+      "default": 3170000
+    }
+  },
+  "tennis": {
+    "capot": {
+      "full":{
+        "single": 3210010,
+        "live": 3220030
+      }
+    },
+    "concede": {
+      "full":{
+        "single": 3210020,
+        "live": 3220010
+      }
+    },
+    "size": {
+      "full":{
+        "single": 3210030,
+        "live": 3220020
+      },
+      "player":{
+        "text": "球员局数",
+        "single": 3210050,
+        "live": 3220040
+      }
+    },
+    "singlePair": {
+      "full": {
+        "single": 3210040
+      }
+    },
+    "matchPlate": {
+      "default": 3230000
+    },
+    "mix": {
+      "default": 3240000
+    }
+  },
+  "volleyball": {
+    "capot": {
+      "full":{
+        "single": 3310010,
+        "live": 3320030
+      }
+    },
+    "concede": {
+      "full":{
+        "single": 3310020,
+        "live": 3320010
+      }
+    },
+    "size": {
+      "full":{
+        "single": 3310030,
+        "live": 3320020
+      },
+      "team":{
+        "text": "球员得分",
+        "single": 3310050,
+        "live": 3320040
+      }
+    },
+    "singlePair": {
+      "full": {
+        "single": 3310040
+      }
+    },
+    "matchPlate": {
+      "default": 3330000
+    },
+    "mix": {
+      "default": 3340000
+    }
+  },
+  "baseball": {
+    "capot": {
+      "full":{
+        "single": 3410010,
+        "live": 3420030
+      },
+      "half": {
+        "text": "首5局主客和",
+        "single": 3410070,
+        "live": 3420050
+      }
+    },
+    "concede": {
+      "full":{
+        "single": 3410020,
+        "live": 3420010
+      },
+      "half": {
+        "text": "首5局让球",
+        "single": 3410050,
+        "live": 3420060
+      }
+    },
+    "size": {
+      "full":{
+        "single": 3410030,
+        "live": 3420020
+      },
+      "half": {
+        "text": "首5局大小",
+        "single": 3410060,
+        "live": 3420070
+      }
+    },
+    "singlePair": {
+      "full":{
+        "single": 3410040,
+        "live": 3420040
+      }
+    },
+    "mix": {
+      "default": 3430000
+    }
+  },
+  "other": {
+    "capot": {
+      "full":{
+        "single": 3510010,
+        "live": 3520010
+      }
+    },
+    "concede": {
+      "full":{
+        "single": 3510020,
+        "live": 3520020
+      },
+      "half":{
+        "live": 3520050
+      }
+    },
+    "size": {
+      "full":{
+        "single": 3510030,
+        "live": 3520030
+      },
+      "half":{
+        "live": 3520060
+      }
+    },
+    "singlePair": {
+      "full":{
+        "single": 3510040,
+        "live": 3520040
+      }
+    },
+    "mix": {
+      "default": 3530000
+    }
+  }
+}

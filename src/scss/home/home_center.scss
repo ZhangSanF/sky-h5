@@ -1,0 +1,49 @@
+
+.home_center {
+  font-size: 0.13rem;width: 100%;height: 100%;
+}
+/*中间精选球展示样式*/
+.center-content{
+  .center-content-g,.center-content-j{
+    .center-content-title{width: 100%;height: 0.4rem;line-height: 0.4rem;padding-left: 0.15rem;font-size: 0.15rem;color: #333333}
+    li:nth-child(2){margin-top: 0.13rem}
+  }
+  .info-box{width: 100%;height: 0.48rem;
+    .center-content-info{width: 100%;height: 0.38rem;background: #ffffff;display: flex;margin-top: 0.13rem;justify-content: space-around;
+      >div{height: 100%;line-height: 0.38rem;width: 100%;text-align: center}
+    }
+  }
+
+
+}
+
+.notice_bar {
+  font-size: 0.15rem;
+  height: 0.45rem;
+  line-height:.45rem;
+  position: relative;
+  z-index: 10;
+  top: .18rem;
+  a.notice_icon {
+    position: absolute;
+    top: 50%;
+    left: .15rem;
+    transform: translateY(-50%);
+    font-size: .18rem;
+    color:$home-color;
+  }
+  a.notice_text {
+    color: #333;
+    font-size: .13rem;
+    display: inline-block;
+    margin-left: 0.45rem;
+    line-height: 0.42rem;
+  }
+  a.arrow_icon {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    transform: translateY(-50%);
+    font-size: .17rem;
+  }
+}

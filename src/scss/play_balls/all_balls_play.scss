@@ -1,0 +1,361 @@
+
+.more-play{width: 100%;height: 100%;font-size: 0.13rem;
+  .checkedMix{background-color: #B2DFFC;color: #41B9E5;
+  /*  span:nth-child(1){color: #FFFFFF;}*/
+  }
+   .checkedMixPlant{color: #FFFFFF!important;}
+  //球员局数大小标题超长
+  .playerNum{display: block; width: 3rem; overflow: hidden; white-space: nowrap; margin: auto;}
+  //top
+  .play-top{position: fixed;top: 0.1rem;left: 50%;transform: translate(-50%,0);color: #ffffff;font-size: 0.15rem;width: 3rem;text-align: center;}
+  //球场
+  .football-field{width: 100%;height: 1.84rem;position: relative;color: #ffffff;
+    .football-img{width: 3.75rem;height: 1.84rem;}
+    //足球场
+    .football-info{width: 3.15rem;height: 1.41rem;background: rgba(0,0,0,0.4);position: absolute;
+      top: 50%;left: 50%;transform: translate(-50%,-50%);border-radius: 10px;
+      .info-title{box-sizing:border-box;width: 2.95rem;height: 0.33rem;border-bottom: 0.01rem solid rgba(255,255,255,0.4);margin: 0 auto;
+        .balls{padding: 0 0.06rem;display: flex;justify-content: space-between;align-items: center;height: 0.32rem;font-size: 0.1rem;}
+      }
+      .info-name{box-sizing:border-box;display: flex;width: 100%;height: 0.99rem;justify-content: space-around;padding: 0 0.1rem;
+        .score-box{height: 0.32rem;position: relative;
+            .red-card{width: 0.14rem;height: 0.15rem;background: #E43131;border-radius: 2px;position: absolute;top: 50%;left: 50%;
+              transform: translate(-50%,-50%);font-size: 0.1rem;color: #FFFFFF;line-height:0.15rem;text-align: center;}
+        }
+        .img-box{width: 0.35rem;height: 0.35rem;background: #ffffff;border-radius: 50%;position: relative;margin: 0 auto;
+          .img-style{position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%)}
+          .img-left-size{width: 0.35rem;height: 0.35rem;}
+          .img-right-size{width: 0.25rem;height: 0.35rem;}
+        }
+        .no-img{width: 0.35rem;height: 0.35rem;background: rgba(#000000,0.4);border-radius: 50%;position: relative;margin: 0 auto;
+          .zuqiu-box{width: 0.25rem;height: 0.25rem;display: inline-block;line-height: 0.25rem;position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);
+            .zuqiu{font-size: 0.27rem;position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);}
+          }
+        }
+        .left-name,.right-name{font-size: 0.11rem;margin-top: 0.04rem;width: 0.6rem;overflow: hidden;  display: -webkit-box;  -webkit-line-clamp: 2;   text-align: center;//height: 0.32rem;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+        }
+        .center-vs{
+          font-size: 0.25rem;
+          text-align: center;
+          height: 100%;
+          line-height: 1rem;
+          /*font-size: 0.25rem;text-align: center;line-height: 0.56rem*/
+        }
+        .center-left,.center-right{line-height: 0.56rem;color: #F89D45;font-size: 0.2rem;height: 100%;line-height: 1rem;}
+      }
+    }
+    //棒球场
+    .baseball-info{box-sizing: border-box;width: 3.15rem;background: rgba(0,0,0,0.4);position: absolute;
+      top: 50%;left: 50%;transform: translate(-50%,-50%);border-radius: 10px;padding: 0 0.15rem;
+      .title{box-sizing:border-box;height: 0.47rem;display: flex;justify-content: space-between;
+        border-bottom: 0.01rem solid rgba(255,255,255,0.4);align-items: center;
+        .title-left{font-size: 0.1rem;color: $home-color}
+        .title-right{font-size: 0.13rem;color: #999999;
+          span:nth-child(2){margin-left: 0.2rem}
+        }
+      }
+      .title-content{box-sizing:border-box;height: 0.45rem;display: flex;justify-content: space-between;
+        border-bottom: 0.01rem solid rgba(255,255,255,0.4);align-items: center;
+        .names{font-size: 0.11rem;color: #ffffff;width: 1.62rem;overflow:hidden;display: -webkit-box;  -webkit-line-clamp: 2;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+        }//height: 0.17rem;
+        .names-number{font-size: 0.11rem; margin-right: 0.01rem;
+          span:nth-child(1){color: #B8AE13;display:inline-block;width: 0.145rem;text-align: center;margin-right: 0.15rem;}
+          span:nth-child(2){display:inline-block;width: 0.145rem;text-align: center;}
+        }
+      }
+      .title-content-g{box-sizing:border-box;height: 0.45rem;display: flex;justify-content: space-between;
+        border-bottom: 0rem solid rgba(255,255,255,0.4);align-items: center;
+        .names{font-size: 0.11rem;color: #ffffff;width: 1.62rem;overflow:hidden;display: -webkit-box;  -webkit-line-clamp: 2;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+        }//height: 0.17rem;
+        .names-number{font-size: 0.11rem; margin-right: 0.01rem;
+          span:nth-child(1){color: #B8AE13;display:inline-block;width: 0.145rem;text-align: center;margin-right: 0.15rem;}
+          span:nth-child(2){display:inline-block;width: 0.145rem;text-align: center;}
+        }
+      }
+      .footer{box-sizing:border-box;display: flex;justify-content: space-between;  align-items: center;height: 0.29rem;border-top: 0.01rem solid rgba(255,255,255,0.4);
+        .times{font-size: 0.11rem}
+        .times-number{font-size: 0.11rem;
+          span:nth-child(2){margin-left: 0.05rem;color: #B8AE13}
+        }
+      }
+    }
+    //篮球场
+    .basketball-info{box-sizing: border-box;width: 3.15rem;height: 1.41rem;background: rgba(0,0,0,0.4);position: absolute;
+      top: 50%;left: 50%;transform: translate(-50%,-50%);border-radius: 10px;padding: 0 0.13rem;
+      .info-title{box-sizing:border-box;height: 0.33rem;text-align: center;line-height: 0.33rem;
+        border-bottom: 0.01rem solid rgba(255,255,255,0.4);font-size: 0.1rem}
+      .content{box-sizing:border-box;height: 0.82rem;display: flex;justify-content: space-around;//align-items: flex-end;
+        .numbers{font-size: 0.25rem;color: #CC4F1C;text-align: center;height: 0.5rem;line-height: 0.7rem}
+        .fonts{font-size: 0.11rem;text-align: center;width: 1.3rem;overflow: hidden;display: -webkit-box;  -webkit-line-clamp: 2;//height: 0.32rem;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+        }
+        .centers{font-size: 0.25rem;height: 100%;line-height: 0.82rem}
+      }
+      .footer{box-sizing: border-box;display: flex;justify-content: space-between;font-size: 0.11rem;padding: 0 0.15rem;
+        .color-style{color: #CC4F1C}
+      }
+    }
+    //网球场
+    .tennis-info{box-sizing: border-box;width: 3.15rem;height: 1.12rem;background: rgba(0,0,0,0.4);position: absolute;
+      top: 50%;left: 50%;transform: translate(-50%,-50%);border-radius: 10px;padding: 0 0.14rem;
+      .list-info{ display: flex;justify-content: space-between;border-bottom: 0.01rem solid rgba(255,255,255,0.2);align-items: center;font-size: 0.13rem;
+        .title{color: $home-color;font-size: 0.1rem}
+        .no-title{color: #FFFFFF;font-size: 0.1rem}
+        .title-info{color: #999999;font-size: 0.1rem;//overflow:hidden;text-overflow:ellipsis;  white-space: nowrap;
+          .center{margin-right: 0.2rem;margin-left: 0.2rem}
+        }
+        .names-number{font-size: 0.13rem}
+        .center-number{margin-right: 0.19rem;margin-left: 0.25rem;text-align: center;}
+        .color-number{color: #B8AE13}
+        .names{width: 1.83rem;overflow: hidden;display: -webkit-box;  -webkit-line-clamp: 2; font-size: 0.11rem;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+        }
+        .score{display:inline-block;width: 0.145rem;text-align: center;}
+      }
+      .first{box-sizing:border-box;height: 0.34rem;}
+      .two{box-sizing:border-box;height: 0.39rem;}
+      li:last-child{border-bottom: none;}
+    }
+    //other球场
+    .other-info{box-sizing: border-box;width: 3.15rem;height: 1.41rem;background: rgba(0,0,0,0.4);position: absolute;
+      top: 50%;left: 50%;transform: translate(-50%,-50%);border-radius: 10px;padding: 0 0.13rem;
+      .time-title{box-sizing: border-box;border-bottom: 0.01rem solid rgba(255,255,255,0.4);height: 0.33rem;
+        text-align: center;line-height: 0.33rem;font-size: 0.1rem;}
+      .name-info{box-sizing: border-box;height: 1.08rem;font-size: 0.15rem;display: flex;
+        justify-content: space-between;align-items: center;//padding: 0 0.1rem;
+        .names{width: 0.9rem;text-align: center;overflow: hidden; display: -webkit-box;   -webkit-line-clamp: 2;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+        }
+        .center-left,.center-right{color: #F89D45;font-size: 0.2rem}//line-height: 0.56rem;
+      }
+    }
+  }
+  //横向滚动条
+  .sports-roll{width: 100%;height: 100%;//margin-top: 0.15rem;
+    .swiper-box{box-sizing:border-box;width: 100%;overflow: hidden;height: .4rem;line-height:.4rem;background: #ffffff;
+      .tab-box{
+        .tab-text {display: inline-block;text-align: center;}
+        .tab-text.actives {color: $home-color;}
+        .xian-box{position: relative;
+          .xian{width: 100%;height: 2px;background: $home-color;position: absolute;bottom: 0;left: 0;transition: all .3s linear}
+        }
+      }
+      .fade-enter-active, .fade-leave-active{
+        transition: opacity .2s;
+      }
+      .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0;
+      }
+    }
+
+    //让球
+    .concede,.goal-size{width: 100%;font-size: 0.13rem;margin-bottom: 0.15rem;
+      .concede-title{box-sizing:border-box;height: 0.36rem;text-align: center;line-height: 0.36rem;background: #ffffff;
+        border-bottom: 0.01rem solid $border-color;font-size: 0.14rem;color: #333333;position: relative;
+        .icon-box{position: absolute;top: 50%;right: 0.14rem;transform: translate(0,-50%) rotate(-90deg);transition: all .2s linear;
+          .bottom-arrow{font-size: 0.19rem;color: #999999;}
+        }
+      }
+      .fade-enter-active, .fade-leave-active{
+        transition: opacity .3s;
+      }
+      .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0;
+      }
+      .boxContent{overflow: hidden;background: #ffffff;
+        .concede-name{box-sizing:border-box;display: flex; border-bottom: 0.01rem solid $border-color;font-size: 0.13rem;color: #666666;text-align: center;//height: 0.36rem;line-height:0.36rem;
+          div:nth-child(1){box-sizing:border-box;width: 1.88rem;border-right: 0.01rem solid $border-color;padding: 0.095rem 0.3rem}//overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap;
+          div:nth-child(2){box-sizing:border-box;width: 1.88rem;padding: 0.095rem 0.3rem}//overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap;
+        }
+        .concede-item{height: 0.36rem;line-height:0.36rem;display: flex; border-bottom: 0.01rem solid $border-color;font-weight: bold;
+          .concede-item-left,.concede-item-right{box-sizing:border-box;width: 1.88rem;display: flex;padding: 0 0.26rem 0 0.27rem;justify-content: space-around;color:rgba(90,90,90,0.9);
+            .showitems{visibility: visible}
+            .hideitems{visibility: hidden}
+            div:nth-child(1){font-size: 0.11rem;text-align: center;width: 0.5rem;color: #999999}//width: 1.88rem;
+            div:nth-child(2){font-size: 0.13rem;text-align: center;width: 0.5rem;color:rgba(90,90,90,0.9)} //color: #333333;width: 1.88rem;
+            .rate_color_green {
+              color: #09D577 !important;
+            }
+            .rate_color_red {
+              color: #D50926 !important;
+            }
+          }
+          .concede-item-left{border-right: 0.01rem solid $border-color;}
+          //单双居中
+          .odd-even{box-sizing:border-box;width: 1.88rem;text-align: center;font-size: 0.13rem;color:rgba(90,90,90,0.9);/*color: #333333;*/
+            .showitems{visibility: visible;}
+            .hideitems{visibility: hidden;}
+          }
+          .border{border-right: 0.01rem solid $border-color;}
+        }
+        .concede-item:last-child{border-bottom:none}
+      }
+    }
+  }
+}
+
+//獨贏(三列)居中
+.capot-three{width: 100%;font-size: 0.13rem;margin-bottom: 0.15rem;
+  .capot-title{box-sizing:border-box;height: 0.36rem;text-align: center;line-height: 0.36rem;background: #ffffff;
+    border-bottom: 0.01rem solid $border-color;font-size: 0.14rem;color: #333333;position: relative;
+    .title-font{font-size: 0.14rem;color: #333333}
+    .icon-box{position: absolute;top: 50%;right: 0.14rem;transform: translate(0,-50%) rotate(-90deg);transition: all .2s linear;
+      .bottom-arrow{font-size: 0.19rem;color: #999999;}
+    }
+  }
+  .title-info{box-sizing:border-box;display: flex;background: #ffffff;border-bottom: 0.01rem solid $border-color;//height: 0.36rem;line-height: 0.36rem;
+    font-size: 0.13rem;color: #666666;
+    div:nth-child(1){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color; text-align: center;  padding:0.095rem 0.1rem; }//text-overflow:ellipsis; white-space: nowrap;overflow:hidden
+    div:nth-child(2){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color; text-align: center;padding:0.095rem 0.1rem}
+    div:nth-child(3){box-sizing:border-box;width: 1.25rem; text-align: center; padding:0.095rem 0.1rem;  }//text-overflow:ellipsis; white-space: nowrap; overflow:hidden
+  }
+  .content-list{background: #ffffff;box-sizing: border-box;height: 0.36rem;display: flex;line-height: 0.36rem;border-bottom: 0.01rem solid $border-color;
+    div:nth-child(1){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color;text-align: center}
+    div:nth-child(2){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color;text-align: center}
+    div:nth-child(3){box-sizing:border-box;width: 1.25rem;text-align: center}
+    .list-right{font-size: 0.13rem;font-weight: bold;color:rgba(90,90,90,0.9)} //color: #333333
+    .rate_color_green {
+      color: #09D577 !important;
+    }
+    .rate_color_red {
+      color: #D50926 !important;
+    }
+  }
+  .fade-enter-active, .fade-leave-active{
+    transition: opacity .3s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+}
+
+//波胆(三列)
+.correct-three{width: 100%;font-size: 0.13rem;margin-bottom: 0.15rem;
+  .correct-title{box-sizing:border-box;text-align: center;background: #ffffff;height: 0.36rem;line-height: 0.36rem;
+    border-bottom: 0.01rem solid $border-color;font-size: 0.14rem;color: #333333;position: relative;
+    .title-font{font-size: 0.14rem;color: #333333}
+    .icon-box{position: absolute;top: 50%;right: 0.14rem;transform: translate(0,-50%) rotate(-90deg);transition: all .2s linear;
+      .bottom-arrow{font-size: 0.19rem;color: #999999;}
+    }
+  }
+  .title-info{box-sizing:border-box;display: flex;background: #ffffff;border-bottom: 0.01rem solid $border-color;//height: 0.36rem;line-height: 0.36rem;
+    font-size: 0.13rem;color: #666666;
+    div:nth-child(1){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color; text-align: center;padding:0.095rem 0.1rem}
+    div:nth-child(2){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color; text-align: center;padding:0.095rem 0.1rem}
+    div:nth-child(3){box-sizing:border-box;width: 1.25rem; text-align: center;padding:0.095rem 0.1rem}
+  }
+  .content-list{background: #ffffff;box-sizing: border-box;height: 0.36rem;display: flex;line-height: 0.36rem;border-bottom: 0.01rem solid $border-color;
+    div:nth-child(1){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color;display: flex;padding: 0 0rem 0 0rem;justify-content: space-around}
+    div:nth-child(2){box-sizing:border-box;width: 1.25rem;border-right:0.01rem solid $border-color;display: flex;padding: 0 0rem 0 0rem;justify-content: space-around}
+    div:nth-child(3){box-sizing:border-box;width: 1.25rem;display: flex;padding: 0 0rem 0 0rem;justify-content: space-around}
+    .list-left-score{font-size: 0.11rem;color: #999999!important;font-weight: bold;color:rgba(90,90,90,0.9);width:0.62rem;text-align: center}
+    .list-left{font-size: 0.11rem;color: #999999;width:0.62rem;text-align: center}
+    .list-right{font-size: 0.13rem;font-weight: bold;color:rgba(90,90,90,0.9);width:0.62rem;text-align: center}
+  }
+  .fade-enter-active, .fade-leave-active{
+    transition: opacity .3s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+}
+
+//排球独赢&一个标题一个内容
+.capot-volley{font-size: 0.13rem;margin-bottom: 0.15rem;
+  .concede-title{box-sizing:border-box;height: 0.36rem;text-align: center;line-height: 0.36rem;background: #ffffff;
+    border-bottom: 0.01rem solid $border-color;font-size: 0.14rem;color: #333333;position: relative;
+    .icon-box{position: absolute;top: 50%;right: 0.14rem;transform: translate(0,-50%) rotate(-90deg);transition: all .2s linear;
+      .bottom-arrow{font-size: 0.19rem;color: #999999;}
+    }
+  }
+  .boxContent{overflow: hidden;background: #ffffff;
+    .concede-name{box-sizing:border-box;height: 0.36rem;line-height:0.36rem;display: flex; border-bottom: 0.01rem solid $border-color;font-size: 0.13rem;color: #666666;text-align: center;
+      div:nth-child(1){box-sizing:border-box;width: 1.88rem;border-right: 0.01rem solid $border-color;overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap;padding: 0 0.3rem}
+      div:nth-child(2){box-sizing:border-box;width: 1.88rem;overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap;padding: 0 0.3rem}
+    }
+    .list-name{box-sizing:border-box;border-bottom: 0.01rem solid $border-color;font-size: 0.13rem;color: #666666;text-align: center;//height: 0.36rem;line-height:0.36rem;
+      display: flex;
+      div:nth-child(1){box-sizing:border-box;width: 1.88rem;border-right: 0.01rem solid $border-color;padding: 0.095rem 0.3rem}//overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap;
+      div:nth-child(2){box-sizing:border-box;width: 1.87rem;padding: 0.095rem 0.3rem}//overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap;
+    }
+    .list-info{box-sizing:border-box;height: 0.36rem;line-height:0.36rem;border-bottom: 0.01rem solid $border-color;font-size: 0.13rem;color: #666666;font-weight: bold;
+      display: flex;
+      div:nth-child(1){box-sizing:border-box;width: 1.88rem;border-right: 0.01rem solid $border-color;display: flex;padding: 0 0.26rem 0 0.27rem;justify-content: space-around}
+      div:nth-child(2){box-sizing:border-box;width: 1.87rem;display: flex;padding: 0 0.26rem 0 0.27rem;justify-content: space-around}
+      .list-left{font-size: 0.11rem;color: #999999}
+      .list-right{font-size: 0.13rem;color:rgba(90,90,90,0.9)}
+      .rate_color_green {
+        color: #09D577 !important;
+      }
+      .rate_color_red {
+        color: #D50926 !important;
+      }
+    }
+  }
+  .fade-enter-active, .fade-leave-active{
+    transition: opacity .3s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+}
+
+//总进球&半场/全场
+.all-half{width: 100%;font-size: 0.13rem;margin-bottom: 0.15rem;
+  .all-half-title{box-sizing:border-box;height: 0.36rem;text-align: center;line-height: 0.36rem;background: #ffffff;
+    border-bottom: 0.01rem solid $border-color;font-size: 0.14rem;color: #333333;position: relative;
+    .icon-box{position: absolute;top: 50%;right: 0.14rem;transform: translate(0,-50%) rotate(-90deg);transition: all .2s linear;
+      .bottom-arrow{font-size: 0.19rem;color: #999999;}
+    }
+  }
+  .boxContent{overflow: hidden;background: #ffffff;
+    .all-half-item{height: 0.36rem;line-height:0.36rem; border-bottom: 0.01rem solid $border-color;display: flex;;justify-content: space-around;font-weight: bold;
+      div:nth-child(1){font-size: 0.11rem;color: #999999;width: 2rem;overflow: hidden; text-overflow:ellipsis;  white-space: nowrap;text-align: center;font-weight: bold}
+      div:nth-child(2){font-size: 0.13rem;color: #333333;width: 2rem;overflow: hidden; text-overflow:ellipsis;  white-space: nowrap;text-align: center;color:rgba(90,90,90,0.9)}
+      .rate_color_green {
+        color: #09D577 !important;
+      }
+      .rate_color_red {
+        color: #D50926 !important;
+      }
+    }
+    .all-half-item:last-child{border-bottom:none;}
+  }
+}
+
+//
+.all-play{position: fixed;left: 0;right: 0;overflow: hidden;top:2.39rem;bottom: 0;
+  //div:last-child{margin-bottom: 0}
+}
+
+.arrow_up_green {
+  color: #09D577;
+  font-size: .13rem;
+  position:relative;
+  top: 0;
+  left: -5px;
+}
+.arrow_down_red {
+  transform: rotate(180deg);
+  color: #D50926;
+  font-size: .13rem;
+  display: inline-block;
+  position:relative;
+  top: 0;
+  left: -5px;
+}

@@ -1,0 +1,141 @@
+//公共样式
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,div {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+html,body {
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: #f2f2f2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+/* html,body{font-family: 'HansHandItalic';font-size: 100px;;width: 100%;height: 100%;overflow: hidden;}     */
+a {
+    text-decoration: none
+}
+em {
+    font-style: normal
+}
+li {
+    //list-style: none
+}
+img {
+    border: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+p {
+    word-wrap: break-word
+}
+iframe {
+    border: none
+}
+.vux-alert,.vux-loading {
+    font-size: .13rem
+}
+.vux-header-title-area, .vux-header .vux-header-title {
+    height: .38rem!important;
+}
+.vux-header .vux-header-title {
+    line-height: .38rem!important;
+    font-size: .16rem!important;
+}
+
+//$home-top-color:linear-gradient(rgba(17, 167, 222, 1),rgba(17, 167, 222, 0.56));
+$home-top-color:linear-gradient(rgba(17, 167, 222, 1),rgba(17, 167, 222, 0.72),rgba(17, 167, 222, 0.56));
+$small-p:linear-gradient(rgba(17, 167, 222, 1),rgba(120, 205, 236, 1));
+$home-color:#11A7DE;
+$border-color:#F2F4F3;
+$carousel-indicator-width: .1rem;
+$carousel-indicator-height: .1rem;
+$single-box-width: .7rem;
+$single-box-height: .7rem;
+$single-box-margin: .15rem;
+
+// 弹窗
+.vux-alert{
+  .vux-x-dialog{
+    .weui-dialog{width: 3rem;border-radius: 8px;
+      .weui-dialog__hd{padding: 0;margin: .25rem 0 .15rem;
+        .weui-dialog__title{font-size: 0.15rem;color: #999999}
+      }
+      .weui-dialog__bd{box-sizing:border-box;padding: 0;width: 2.59rem;margin: 0 auto .2rem;min-height: .31rem;
+        div{  font-size: 0.14rem;color: #333333;text-align: center}
+      }
+      .weui-dialog__ft{height: 0.48rem;line-height: 0.48rem;border-top: .01rem solid #DDDDDD;width: 2.59rem;margin: 0 auto;
+        .weui-dialog__btn_primary{color: $home-color;font-size: 0.15rem}
+      }
+      .weui-dialog__ft:after{display: none}
+    }
+  }
+}
+
+//屏幕宽度自适应
+//@media screen and (width: 320px) {
+//    html,body{font-size: (320px/3.75);
+//    }}
+//
+//@media screen and (width: 360px) {
+//    html,body {
+//        font-size: (360px/3.75);
+//    }
+//}
+//
+//@media screen and (width: 375px) {
+//    html,body {
+//        font-size: (375px/3.75);
+//    }
+//}
+//
+//@media screen and (width: 411px) {
+//    html,body {
+//        font-size: (411px/3.75);
+//    }
+//}
+//
+//@media screen and (width: 414px) {
+//    html,body {
+//        font-size: (414px/3.75);
+//    }
+//}
+//
+//@media screen and (width: 768px) {
+//    html,body {
+//        font-size: (768px/3.75);
+//    }
+//}
+//
+//@media screen and (width: 1024px) {
+//    html,body {
+//        font-size: (1024px/3.75);
+//    }
+//}
+.v-transfer-dom{
+  .vux-popup-dialog{background: #FFFFFF;
+    .vux-popup-picker-container{
+      .vux-popup-header{box-sizing:border-box;height: 0.45rem;background: #FFFFFF;padding: 0.07rem 0.15rem ;
+        .vux-popup-header-left{background: $home-color;width: 0.51rem;height: 0.31rem;line-height: 0.31rem;border-radius: 5px;font-size: 0.14rem;color: #FFFFFF;padding-left: 0;text-align: center}
+        .vux-popup-header-right{background: $home-color;width: 0.51rem;height: 0.31rem;line-height: 0.31rem;border-radius: 5px;font-size: 0.14rem;color: #FFFFFF;padding-right: 0;text-align: center}
+      }
+      .vux-picker{
+
+      }
+    }
+  }
+}
+
+//综合过关底部
+.reach-footer{height: 0.35rem;position: fixed;bottom: 0.07rem;left: 50%;z-index: 1000;width: 1.6rem;transform: translate(-50%,0);
+  .footer-content{width: 100%;height: 0.35rem;background: $home-color;border-radius: 3px;text-align: center;position: relative;
+    .content-font{font-size: 0.14rem;color: #ffffff;position: absolute;left: 50%;top:50%;transform: translate(-50%,-50%);width: 1.1rem;height: .2rem;line-height: .2rem}
+    .yuan{width: 0.16rem;height: 0.16rem;border-radius: 50%;background: #ffffff;position: absolute;top: 0.04rem;right: 0.09rem;
+      .yuan-num{width:0.16rem;height:0.16rem;font-size: 0.12rem;color: $home-color;position: absolute;top:0.01rem;left: 0;}
+    }
+  }
+}

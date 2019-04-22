@@ -1,0 +1,176 @@
+
+.outerWrapper {
+    overflow: hidden;
+    .bet_set_page {
+        font-size: 1rem;
+        .choose_lang {
+            .lang_selection {
+                font-size: .14rem;
+                color: #999999;
+                padding: .11rem .18rem;
+            }
+            .sim_item,.com_item {
+                background-color: #fff;
+                height: .46rem;
+                padding:0 .2rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: .01rem;
+                .radio_button {
+                    font-size: .17rem;
+                    color: #ffffff;
+                    display:inline-block;
+                    width: .2rem;
+                    height: .2rem;
+                    line-height:.2rem;
+                    border-radius: 50%;
+                    text-align: center;
+                    vertical-align: middle;
+                    background-color: $home-color;
+                }
+            }
+            .com_item {
+                .radio_button {
+                    font-size: .17rem;
+                }
+            }
+        }
+        .bet_type {
+            .bet_type_txt {
+                font-size: .14rem;
+                color: #999999;
+                padding: .11rem .18rem;
+            }
+            .hk_disc, .eu_disc, .ma_disc, .ind_disc {
+                background-color: #fff;
+                height: .46rem;
+                padding:0 .2rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: .01rem;
+                .radio_button {
+                    font-size: .17rem;
+                    color: #ffffff;
+                    display:inline-block;
+                    width: .2rem;
+                    height: .2rem;
+                    line-height:.2rem;
+                    text-align: center;
+                    vertical-align: middle;
+                    background-color: $home-color;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .show_bet_notice {
+            font-size: .16rem;
+            background-color: #fff;
+            margin-top: .1rem;
+            .show_switch {
+                padding: 0 .2rem;
+                height: .46rem;
+                line-height: .46rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                .switch_txt {
+                    color: #333333;
+                }
+                .switch_icon_on {
+                    width: .39rem;
+                    height: .19rem;
+                    border-radius: .15rem;
+                    background-color: $home-color;
+                }
+                .switch_icon_off {
+                    width: .39rem;
+                    height: .19rem;
+                    border-radius: .15rem;
+                    background-color: #dddddd;
+                }
+                .swiper_circle {
+                    position: absolute;
+                    width: .16rem;
+                    height: .16rem ;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    transform: translateX(2.98rem);
+                    transition: all .3s linear;
+                }
+            }
+            .show_bet_rate {
+                background-color: #fff;
+                border-top: .01rem solid $border-color;
+                .bet_rate_color, .show_arrow {
+                    height: .46rem;
+                    padding:0 .2rem;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: .01rem;
+                    .txt_style {
+                        font-size: .15rem;
+                        .rate_color_green {
+                            color: #09D577;
+                        }
+                        .rate_color_red {
+                            color: #D50926;
+                        }
+                    }
+                    .radio_button {
+                        font-size: .17rem;
+                        color: #ffffff;
+                        display:inline-block;
+                        width: .2rem;
+                        height: .2rem;
+                        line-height:.2rem;
+                        border-radius: 50%;
+                        text-align: center;
+                        background-color: $home-color;
+                    }
+                }
+                .show_arrow {
+                    border-top: .01rem solid $border-color;
+                    .arrow_txt_style {
+                      font-size: .15rem;
+                      .rate_color_green {
+                        color: #09D577;
+                      }
+                      .rate_color_red {
+                        color: #D50926;
+                      }
+                        .arrow_up_green {
+                            color: #09D577;
+                            font-size: .13rem;
+                            position:relative;
+                            top: 0;
+                            left: -5px;
+                        }
+                        .arrow_down_red {
+                            transform: rotate(180deg);
+                            color: #D50926;
+                            font-size: .13rem;
+                            display: inline-block;
+                            position:relative;
+                            top: 0;
+                            left: -5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .8s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}

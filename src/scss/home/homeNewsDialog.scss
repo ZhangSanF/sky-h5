@@ -1,0 +1,46 @@
+.home_news_dialog {
+    position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,.6);  z-index: 1000;
+    .news_container {
+        position: absolute;  top: 50%;  left: 50%;  transform: translate(-50%,-50%);  width: 3rem;    background-color: #fff;  border-radius: 8px;  box-sizing: border-box;
+        .tab_box {
+            box-sizing: border-box;  text-align: center; font-size: .15rem; color: #999999;margin: .25rem 0 .15rem;
+        }
+        .outerWrapper {
+            min-height: .31rem;font-size: .14rem;color: #333;padding: 0 .2rem;margin-bottom: .2rem;word-wrap: break-word;
+            //box-sizing: border-box;  padding: 0 .2rem;min-height: .31rem;margin-bottom: .2rem;
+            //  .msg_item_content {
+            //      font-size: .14rem;
+            //      color: #333333;
+            //  }
+        }
+        .confirm_btn {
+            box-sizing: border-box;
+            height: 0.49rem;
+            line-height: 0.49rem;
+            color: $home-color;
+            font-size: .15rem;
+            text-align: center;
+            border-top: .01rem solid #DDDDDD;
+            margin: 0 .2rem;
+        }
+    }
+}
+
+.login-alert{
+  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,.5);  z-index: 10003;
+  .box{
+    position: absolute;  top: 50%;  left: 50%;  transform: translate(-50%,-50%);  width: 3rem;   background-color: #fff;  border-radius: 8px;  box-sizing: border-box;
+    .title{
+      box-sizing: border-box;  text-align: center; font-size: .15rem; color: #999999;margin: .25rem 0 .15rem;
+    }
+    .content{
+      box-sizing:border-box;width: 2.59rem;margin: 0 auto .2rem;font-size: 0.15rem;color: #333333;text-align: center;min-height: .31rem;
+    }
+    .footer{
+      height: 0.49rem;padding: .07rem 0;box-sizing: border-box;display: flex;justify-content: space-between;font-size: .15rem;
+      color: $home-color;border-top: .01rem solid #DDDDDD;width: 2.59rem;margin: 0 auto;
+      p{width: 50%;text-align: center;line-height: .34rem}
+      P:nth-child(2){border-left: .01rem solid #DDDDDD;color: #D50926}
+    }
+  }
+}

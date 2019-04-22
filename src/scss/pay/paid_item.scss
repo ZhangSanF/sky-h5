@@ -1,0 +1,109 @@
+.paid_item_box {
+    font-size: 1rem;
+    box-sizing: border-box;
+    .single_item {
+        box-sizing: border-box;
+        margin-bottom: .15rem;
+        background-color: #fff;
+        padding: .15rem;
+        border-radius: 5px;
+        .result_line {
+            font-size: .14rem;
+            color: #333333;
+            border-bottom: 1px solid $border-color;
+            padding-bottom: .15rem;
+            .team_score {
+                color: $home-color;
+                display: inline-block;
+              //margin-right: .1rem;
+            }
+          .result {
+            color: #B1192B;
+            display: inline-block;
+          }
+            .team_vs {
+                display: inline-block;
+                margin-right: .1rem;
+                margin-left: .1rem;
+            }
+        }
+        .game_name {
+            font-size: .12rem;
+            color: #333333;
+            padding: .10rem 0;
+        }
+        .settle_status {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: .12rem;
+            padding-bottom: .1rem;
+            .game_kind {
+                color: #999999;
+            }
+            .settle_rs {
+                color: #333333;
+            }
+        }
+        .team_params {
+            font-size: .12rem;
+            padding-bottom: .1rem;
+            .team_first_name {
+                color: $home-color;
+            }
+            .at_icon {
+                color: $home-color;
+                position: relative;
+                top: -.01rem;
+                left: -.02rem;
+            }
+            .bet_rate {
+                display: inline-block;
+                background-color: $home-color;
+                color: #ffffff;
+                width: .33rem;
+                height: .16rem;
+                line-height: .16rem;
+                text-align: center;
+                border-radius: 10px;
+                margin-left: .035rem;
+            }
+        }
+        .forecast_result {
+            font-size: .12rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: .1rem;
+            .bet_content {
+                .txt_style {
+                    color: #999999;
+                }
+                .bet_num {
+                    color: #333333;
+                }
+            }
+            .result_content {
+                .txt_style {
+                color: #999999;
+                }
+                .win_num {
+                    color: #14C85C;
+                }
+                .lose_num {
+                    color: #B1192B;
+                }
+                .tie_num {
+                    color: $home-color;
+                }
+            }
+        }
+        .other_info {
+            font-size: .12rem;
+            color: #999999;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

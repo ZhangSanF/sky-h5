@@ -1,0 +1,58 @@
+
+.ball_container{
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 1rem;
+    .single_ball {
+        display: inline-block;
+        margin-right: .15rem;
+        margin-top: .15rem;
+        border-radius: 7px;
+        width: .7rem;
+        height: .7rem;
+        text-align: center;
+        background: linear-gradient(#D1D1D1,#EFEEEE,#F6F6F6);
+        box-sizing: border-box;
+        vertical-align: middle;
+        position: relative;
+        i {
+            font-size: .35rem;
+            position: relative;
+            top: 0.05rem;
+        }
+        .ball_text {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 70%;
+            height: 0.2rem;
+            line-height: 0.2rem;
+            margin: 0 auto;
+            overflow: hidden;
+            font-size: .13rem;
+            text-align: center;
+            position: relative;
+            top: 0.05rem;
+            white-space: nowrap;
+        }
+        .info_num {
+            position: absolute;
+            top: -.07rem;
+            right: -.08rem;
+            box-sizing: border-box;
+            background-color: $home-color;
+            color: #ffffff;
+            //width: .18rem;
+            height: .18rem;
+            line-height: .18rem;
+            //border-radius: 50%;
+            font-size: .12rem;
+            border: none;
+            padding: 0;
+        }
+    }
+    .single_ball:first-child {
+        margin-left: $single-box-margin;
+    }
+}
+
+

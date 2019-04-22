@@ -1,0 +1,41 @@
+
+.sports_event{width: 100%;height: 100%;font-size: 0.13rem;
+  //球类
+  .globule{height: 0.61rem;//width:4.14rem;
+    .globule-item{box-sizing: border-box;width: 0.69rem;height:100%;display: inline-block;
+      float: left;padding: 0.09rem 0.15rem;text-align: center;position: relative;
+      .ball-style{font-size: 0.28rem;}//color: #999999color: #999999;
+      .ball-font{font-size: 0.13rem;width: 0.39rem;height: 0.17rem;overflow: hidden;white-space: nowrap;position: absolute;bottom: 0.06rem;
+        animation: 10s wordsLoop linear infinite normal;
+      }
+      .line{width: 0.01rem;height: 0.33rem;position: absolute;background: #DCDCDC;top: 0.14rem;right: 0;}
+      .msg-num{height: 0.12rem;background: $home-color;position: absolute;top: 0.05rem;color: #FFFFFF;font-size: 0.1rem;text-align: center}
+    }
+    .globule-item:last-child>.line{display: none}
+  }
+  //让球大小&综合过关&冠军
+  .sports-roll{width: 100%;height: 100%;
+    .tab-box{height: .38rem;line-height:.38rem;display:flex;flex-direction:row;justify-content:space-around;background: #ffffff;
+      .tab-text {display: inline-block;width: 1.25rem;text-align: center;font-size: 0.14rem;color: #333333}
+      .tab-text.actives {color: $home-color;}
+    }
+    .underline-style{height: 2px;background: #11A7DE;transform: translate(0,-0.02rem);transition: transform .3s linear 0s  } //width: 50%;
+    .tab-container-box{padding-top: 0.15rem}
+    //内容
+    .session-box{//box-sizing:border-box;height: 5.28rem;overflow: hidden;
+      .scroller-box{//padding-top: 0.15rem;
+        //.list{margin-bottom: 0.15rem}
+      }
+    }
+  }
+
+}
+.animate {
+  padding-left: 20px;
+  font-size: 12px;
+  display: inline-block;
+  white-space: nowrap;
+  animation: 10s wordsLoop linear infinite normal;
+}
+
+
